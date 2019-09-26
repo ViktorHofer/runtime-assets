@@ -54,8 +54,6 @@ P SD:\corefx-testdata\System.IO.Compression.TestData> dotnet pack
     System.IO.Compression.TestData -> D:\corefx-testdata\System.IO.Compression.TestData\bin\Debug\netstandard2.0\System.IO.Compression.TestData.dll
 ```
 
-*Note: Running `dotnet pack` from the root of the `corefx-testdata` project will generate the nuget packages for all the \*.csproj files.*
-
 The generated nuget file(s) will be located in the `bin\Debug` subfolder:
 
 `D:\corefx-testdata\System.IO.Compression.TestData\bin\Debug\System.IO.Compression.TestData.1.0.10.nupkg`
